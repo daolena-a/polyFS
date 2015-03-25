@@ -3,6 +3,7 @@ package org.polyfs.impl.file;
 import org.polyfs.api.IElement;
 import org.polyfs.api.INode;
 import org.polyfs.api.INodePersister;
+import org.polyfs.api.RootNode;
 
 import java.util.List;
 
@@ -42,6 +43,11 @@ public class Directory implements INode {
 
     @Override
     public String getPath() {
+        return null;
+    }
+
+    @Override
+    public RootNode getRoot() {
         return null;
     }
 }
