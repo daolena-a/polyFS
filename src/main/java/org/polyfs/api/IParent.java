@@ -7,4 +7,5 @@ public interface IParent {
     long getID();
     String getName();
     String getPath();
+    RootNode getRoot();
 }
