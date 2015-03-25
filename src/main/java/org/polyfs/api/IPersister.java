@@ -5,5 +5,5 @@ package org.polyfs.api;
  */
 public interface IPersister {
     void write(IElement element);
-    void getIElement(long id);
+    IElement getIElement(long id);
 }
